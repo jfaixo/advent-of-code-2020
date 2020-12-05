@@ -1,5 +1,7 @@
 use std::env;
 use std::process::exit;
+use regex::Regex;
+use std::fs;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -15,9 +17,6 @@ fn main() {
     println!("part 1: {}", valid_number_count_part_1(&entries));
     println!("part 2: {}", valid_number_count_part_2(&entries));
 }
-
-use regex::Regex;
-use std::fs;
 
 #[derive(Debug, Default)]
 struct Passport {
