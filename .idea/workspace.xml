@@ -35,12 +35,20 @@
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/workspace/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/workspace/day-6/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/workspace/day-8/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="155305d8-5cf3-4066-bb66-5610dec7addd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/workspace/day-7/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/day-7/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace/day-7/src/part_1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/day-7/src/part_1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace/day-7/src/part_2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/day-7/src/part_2.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-9/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-9/dataset/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-9/src/input_parsing.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-9/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-9/src/part_1.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-9/src/part_2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/day-7/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/day-9/src" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -87,11 +95,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workspace/day-9/src" />
+      <recent name="$PROJECT_DIR$/workspace/day-8/src" />
       <recent name="$PROJECT_DIR$/workspace/day-7/src" />
       <recent name="$PROJECT_DIR$/workspace/day-6/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.day-7 tests">
+  <component name="RunManager" selected="Cargo.day-9">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -205,6 +215,54 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day-8 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package day-8 --bin day-8" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-8" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package day-8 --bin day-8 -- day-8/dataset/data.txt" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-9 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package day-9 --bin day-9" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-9" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package day-9 --bin day-9 -- day-9/dataset/data.txt" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cargo.day-1" />
       <item itemvalue="Cargo.day-2" />
@@ -216,6 +274,10 @@
       <item itemvalue="Cargo.day-6" />
       <item itemvalue="Cargo.day-7" />
       <item itemvalue="Cargo.day-7 tests" />
+      <item itemvalue="Cargo.day-8" />
+      <item itemvalue="Cargo.day-8 tests" />
+      <item itemvalue="Cargo.day-9" />
+      <item itemvalue="Cargo.day-9 tests" />
     </list>
   </component>
   <component name="RustProjectSettings">
@@ -247,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607340762646</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: Day 7">
+      <created>1607341358656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607341358656</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
