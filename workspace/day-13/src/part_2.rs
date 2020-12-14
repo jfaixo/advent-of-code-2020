@@ -23,11 +23,12 @@ pub fn shuttle_company_contest(input: &Input) -> u64 {
             increment *= buses[bus_index].1;
             bus_index += 1;
         }
-
-        t += increment;
+        else {
+            t += increment;
+        }
     }
 
-    t - increment
+    t
 }
 
 #[cfg(test)]
