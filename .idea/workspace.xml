@@ -37,15 +37,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="155305d8-5cf3-4066-bb66-5610dec7addd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/workspace/day-13/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-13/dataset/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-13/src/input_parsing.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-13/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-13/src/models.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-13/src/part_1.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-13/src/part_2.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-14/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-14/dataset/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-14/src/input_parsing.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-14/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-14/src/part_1.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-14/src/part_2.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-14/src/virtual_machine.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/day_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/Cargo.toml" afterDir="false" />
@@ -87,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/day-13/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/day-14/src" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -96,14 +95,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workspace/day-14/src" />
       <recent name="$PROJECT_DIR$/workspace/day-13/src" />
       <recent name="$PROJECT_DIR$/workspace/day-12/src" />
       <recent name="$PROJECT_DIR$/workspace/day-11/src" />
       <recent name="$PROJECT_DIR$/workspace/day-10/src" />
-      <recent name="$PROJECT_DIR$/workspace/day-9/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.day-13">
+  <component name="RunManager" selected="Cargo.day-14">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -208,6 +207,30 @@
     <configuration name="day-13" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-13 --bin day-13 -- day-13/dataset/data.txt" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-14 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package day-14 --bin day-14" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-14" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package day-14 --bin day-14 -- day-14/dataset/data.txt" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -396,6 +419,8 @@
       <item itemvalue="Cargo.day-12 tests" />
       <item itemvalue="Cargo.day-13" />
       <item itemvalue="Cargo.day-13 tests" />
+      <item itemvalue="Cargo.day-14" />
+      <item itemvalue="Cargo.day-14 tests" />
     </list>
   </component>
   <component name="RustProjectSettings">
@@ -462,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607779443134</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: Day 13">
+      <created>1607872800702</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607872800702</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,6 +532,7 @@
     <MESSAGE value="Day 10" />
     <MESSAGE value="Day 11" />
     <MESSAGE value="feat: Day 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Day 12" />
+    <MESSAGE value="feat: Day 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Day 13" />
   </component>
 </project>
