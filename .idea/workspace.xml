@@ -37,8 +37,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="155305d8-5cf3-4066-bb66-5610dec7addd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/workspace/day-15/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-15/dataset/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-15/src/input_parsing.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-15/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-15/src/the_game.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace/day-13/src/part_2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/day-13/src/part_2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +84,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/day-14/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/day-15/src" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -86,332 +93,410 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workspace/day-15/src" />
       <recent name="$PROJECT_DIR$/workspace/day-14/src" />
       <recent name="$PROJECT_DIR$/workspace/day-13/src" />
       <recent name="$PROJECT_DIR$/workspace/day-12/src" />
       <recent name="$PROJECT_DIR$/workspace/day-11/src" />
-      <recent name="$PROJECT_DIR$/workspace/day-10/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.day-13">
+  <component name="RunManager" selected="Cargo.day-15">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-1" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-1 --bin day-1 -- day-1/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-10 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-10 --bin day-10" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-10" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-10 --bin day-10 -- day-10/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-11 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-11 --bin day-11" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-11" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-11 --bin day-11 -- day-11/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-12 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-12 --bin day-12" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-12" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-12 --bin day-12 -- day-12/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-13 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-13 --bin day-13" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-13" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-13 --bin day-13 -- day-13/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-14 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-14 --bin day-14" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-14" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-14 --bin day-14 -- day-14/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-15 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --package day-15 --bin day-15" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-15" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package day-15 --bin day-15 -- day-15/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-2" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-2 --bin day-2 -- day-2/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-3" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-3 --bin day-3 -- day-3/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-4 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-4 --bin day-4" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-4" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-4 --bin day-4 -- day-4/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-5 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-5 --bin day-5" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-5" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-5 --bin day-5 -- day-5/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-6" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-6 --bin day-6 -- day-6/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-7 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-7 --bin day-7" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-7" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-7 --bin day-7 -- day-7/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-8 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-8 --bin day-8" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-8" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-8 --bin day-8 -- day-8/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-9 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="test --package day-9 --bin day-9" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="day-9" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package day-9 --bin day-9 -- day-9/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cargo.day-10 tests" />
+      <item itemvalue="Cargo.day-10" />
+      <item itemvalue="Cargo.day-11 tests" />
+      <item itemvalue="Cargo.day-11" />
+      <item itemvalue="Cargo.day-12 tests" />
+      <item itemvalue="Cargo.day-12" />
+      <item itemvalue="Cargo.day-13 tests" />
+      <item itemvalue="Cargo.day-13" />
       <item itemvalue="Cargo.day-1" />
       <item itemvalue="Cargo.day-2" />
       <item itemvalue="Cargo.day-3" />
-      <item itemvalue="Cargo.day-4" />
       <item itemvalue="Cargo.day-4 tests" />
-      <item itemvalue="Cargo.day-5" />
+      <item itemvalue="Cargo.day-4" />
       <item itemvalue="Cargo.day-5 tests" />
+      <item itemvalue="Cargo.day-5" />
       <item itemvalue="Cargo.day-6" />
-      <item itemvalue="Cargo.day-7" />
       <item itemvalue="Cargo.day-7 tests" />
-      <item itemvalue="Cargo.day-8" />
+      <item itemvalue="Cargo.day-7" />
       <item itemvalue="Cargo.day-8 tests" />
-      <item itemvalue="Cargo.day-9" />
+      <item itemvalue="Cargo.day-8" />
       <item itemvalue="Cargo.day-9 tests" />
-      <item itemvalue="Cargo.day-10" />
-      <item itemvalue="Cargo.day-10 tests" />
-      <item itemvalue="Cargo.day-11" />
-      <item itemvalue="Cargo.day-11 tests" />
-      <item itemvalue="Cargo.day-12" />
-      <item itemvalue="Cargo.day-12 tests" />
-      <item itemvalue="Cargo.day-13" />
-      <item itemvalue="Cargo.day-13 tests" />
+      <item itemvalue="Cargo.day-9" />
       <item itemvalue="Cargo.day-14" />
       <item itemvalue="Cargo.day-14 tests" />
+      <item itemvalue="Cargo.day-15" />
+      <item itemvalue="Cargo.day-15 tests" />
     </list>
   </component>
   <component name="RustProjectSettings">
@@ -492,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607945880337</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: Day 14">
+      <created>1607951715178</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607951715178</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
