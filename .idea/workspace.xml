@@ -37,11 +37,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="155305d8-5cf3-4066-bb66-5610dec7addd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/workspace/day-15/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-15/dataset/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-15/src/input_parsing.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-15/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-15/src/the_game.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-16/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-16/dataset/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-16/src/input_parsing.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-16/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-16/src/models.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-16/src/part_1.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-16/src/part_2.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/Cargo.lock" afterDir="false" />
@@ -84,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/day-15/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/day-16/src" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -93,14 +95,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workspace/day-16/src" />
       <recent name="$PROJECT_DIR$/workspace/day-15/src" />
       <recent name="$PROJECT_DIR$/workspace/day-14/src" />
       <recent name="$PROJECT_DIR$/workspace/day-13/src" />
       <recent name="$PROJECT_DIR$/workspace/day-12/src" />
-      <recent name="$PROJECT_DIR$/workspace/day-11/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.day-15">
+  <component name="RunManager" selected="Cargo.day-16">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -276,6 +278,34 @@
     </configuration>
     <configuration name="day-15" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package day-15 --bin day-15 -- day-15/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-16 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --package day-16 --bin day-16" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-16" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package day-16 --bin day-16 -- day-16/dataset/data.txt" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
       <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
@@ -497,6 +527,8 @@
       <item itemvalue="Cargo.day-14 tests" />
       <item itemvalue="Cargo.day-15" />
       <item itemvalue="Cargo.day-15 tests" />
+      <item itemvalue="Cargo.day-16" />
+      <item itemvalue="Cargo.day-16 tests" />
     </list>
   </component>
   <component name="RustProjectSettings">
@@ -584,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607951715178</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: day 15">
+      <created>1608033979173</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608033979173</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,6 +663,7 @@
     <MESSAGE value="feat: Day 12" />
     <MESSAGE value="feat: Day 13" />
     <MESSAGE value="feat: Day 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Day 14" />
+    <MESSAGE value="feat: day 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: day 15" />
   </component>
 </project>
