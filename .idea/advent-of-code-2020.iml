@@ -22,6 +22,7 @@
       <sourceFolder url="file://$MODULE_DIR$/workspace/day-17/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/workspace/day-18/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/workspace/day-19/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/workspace/day-20/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/workspace/target" />
     </content>
     <orderEntry type="inheritedJdk" />
