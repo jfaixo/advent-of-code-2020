@@ -37,14 +37,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="155305d8-5cf3-4066-bb66-5610dec7addd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/workspace/day-20/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-20/dataset/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-20/dataset/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-20/src/input_parsing.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-20/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-20/src/models.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-20/src/part_1.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workspace/day-20/src/part_2.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-21/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-21/dataset/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-21/src/input_parsing.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-21/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-21/src/models.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-21/src/part_1.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-21/src/part_2.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-22/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-22/dataset/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-22/src/game.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-22/src/input_parsing.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-22/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-22/src/part_1.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace/day-22/src/part_2.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/advent-of-code-2020.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/Cargo.lock" afterDir="false" />
@@ -120,7 +126,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/values.csv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workspace/day-22/src" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -129,17 +135,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workspace/day-22/src" />
+      <recent name="$PROJECT_DIR$/workspace/day-21/src" />
       <recent name="$PROJECT_DIR$/workspace/day-20/src" />
       <recent name="$PROJECT_DIR$/workspace/day-19/src" />
       <recent name="$PROJECT_DIR$/workspace/day-18/src" />
-      <recent name="$PROJECT_DIR$/workspace/day-17/src" />
-      <recent name="$PROJECT_DIR$/workspace/day-16/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/workspace/day-20/dataset" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.day-20">
+  <component name="RunManager" selected="Cargo.day-22">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -481,6 +487,62 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day-21 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --package day-21 --bin day-21" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-21" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package day-21 --bin day-21 -- day-21/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-22 tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --package day-22 --bin day-22" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day-22" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package day-22 --bin day-22 -- day-22/dataset/data.txt" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="day-3" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package day-3 --bin day-3 -- day-3/dataset/data.txt" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/workspace" />
@@ -686,12 +748,11 @@
       <item itemvalue="Cargo.day-19 tests" />
       <item itemvalue="Cargo.day-20" />
       <item itemvalue="Cargo.day-20 tests" />
+      <item itemvalue="Cargo.day-21" />
+      <item itemvalue="Cargo.day-21 tests" />
+      <item itemvalue="Cargo.day-22" />
+      <item itemvalue="Cargo.day-22 tests" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cargo.Expand day_19::part_2" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
